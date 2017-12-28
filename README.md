@@ -56,6 +56,9 @@ A sample configuration file is as follows:
   "lirc": { "port": 8766, "host": "0.0.0.0" },
   "keymap": { "rca1": { "one": { "topic": "house/rca1", "message": "one" },
                         "two": { "topic": "house/rca1", "message": "two" }
+                      },
+            { "hisense": { "KEY_1": { "topic": "house/hisense", "message": "one" },
+                           "KEY_2": { "topic": "house/hisense", "message": "two" }
                       }
             }
 }

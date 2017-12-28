@@ -57,7 +57,7 @@ A sample configuration file is as follows:
   "keymap": { "rca1": { "one": { "topic": "house/rca1", "message": "one" },
                         "two": { "topic": "house/rca1", "message": "two" }
                       },
-            { "hisense": { "KEY_1": { "topic": "house/hisense", "message": "one" },
+              "hisense": { "KEY_1": { "topic": "house/hisense", "message": "one" },
                            "KEY_2": { "topic": "house/hisense", "message": "two" }
                       }
             }
